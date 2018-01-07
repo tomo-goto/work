@@ -1,0 +1,14 @@
+# 1
+ip=192.168.1.1
+usr=root
+pwd=
+
+# 2
+ip=192.168.1.2
+usr=root
+pwd=
+
+# 3
+ip=192.168.1.3
+usr=root
+pwd=
