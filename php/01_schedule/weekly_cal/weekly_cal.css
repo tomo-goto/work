@@ -1,0 +1,90 @@
+.head {
+    height: 72px;
+    background-color: cadetblue;
+    clear: left;
+}
+
+.side_head {
+    background-color: red;
+/*    background-color: aquamarine;*/
+    width: 80px;
+    height: 72px;
+    float: left;
+}
+
+.side_flagment {
+    text-align: center;
+    clear: left;
+}
+
+.top_head {
+    width: 700px;
+    float: left;
+}
+
+.top {
+    background-color: antiquewhite;
+    width: 100px;
+    float: left;
+}
+
+.top_flagment {
+    text-align: center;
+    clear: left;
+}
+
+.top_flagment_tiny {
+    text-align: center;
+    width: 50px;
+    float: left;
+}
+
+.table {
+}
+
+.table_side {
+    width: 80px;
+    float: left;
+}
+
+.clock {
+    text-align: center;
+    clear: left;
+}
+
+.table_data {
+    
+}
+
+.data_flagment {
+    width: 100px;
+    float: left;
+}
+
+.daily_flagment {
+    width: 50px;
+    float: left;
+}
+
+.daily {
+    background-color: coral;
+    text-align: center;
+    clear: left;
+}
+
+.special {
+    background-color: coral;
+    text-align: center;
+    clear: left;
+}
+
+.special_flagment {
+    width: 50px;
+    float: left;
+}
+
+.blank {
+    width: 50px;
+    height: 24px;
+    background-color: gainsboro;
+}

@@ -1,0 +1,115 @@
+body {
+    background-color: #FDF5E6;
+}
+
+h2 {
+    background-color:	#CC3333; 
+    color: #FFDBC9;
+    padding: 5px;
+}
+
+h4 {
+    background-color: #FF773E;
+    color: #FFFF99;
+    padding: 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h5 {
+    background-color: darkred;
+    color: beige;
+    padding: 0 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 15%;
+}
+
+a {
+    color: darkred;
+    text-decoration:none;
+}
+
+/* --------------- class define --------------- */
+/* ------- common define ------- */
+.row {
+    clear: left;
+}
+
+.column {
+    float: left;
+}
+/* ------- structure define ------- */
+.top {
+    /* flex */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.head {
+    /*background-color: black;*/
+    background-color: darkred;
+    height: 60px;
+}
+
+.bot {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.side {
+    background-color: darksalmon;
+    overflow-x: hidden;
+    /* flex */
+    position: fixed;
+    width: 15%;
+    height: 100%;
+}
+
+.menu {
+    padding-left: 10px;
+    padding-top: 20px;
+    /* fixed */
+    left: 0;
+}
+
+.navi {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+    /* fixed */
+    right: 0;
+}
+
+.middle {
+    /* flex */
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 300px;
+    width: 64%;
+}
+
+.article {
+    /* no item right now... */
+}
+/* ------- article define ------- */
+.inside {
+    /* flex */
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+}
+
+.text {
+    background-color: #FFDEAD;
+}
+
+.code {
+    background-color: black;
+    color: lawngreen;
+}

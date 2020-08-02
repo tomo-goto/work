@@ -1,0 +1,91 @@
+.row {
+    clear: left;
+    background-color: white;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    background-color: palevioletred;
+/*    width: 100px;*/
+    float: left;
+}
+
+.children {
+    float: left;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+}
+
+.child_name {
+    width: 80px;
+    float: left
+}
+
+.goal {
+    overflow: hidden;
+    width: 80px;
+    height: 24px;
+    float: left
+}
+
+.time_spent {
+    width: 120px;
+    float: left
+}
+
+.todo_list {
+    float: left
+}
+
+.todo {
+}
+
+.todo_fragment {
+    width: 60px;
+}
+
+.column {
+    float: left;
+}
+
+// ------------- insert -------------
+.inshead {
+    width: 680px;
+}
+
+.inshead_flag {
+    width: 136px;
+    float: left;
+    background-color: darkseagreen;
+}
+
+// ------------- update -------------
+.updhead {
+    width: 680px;
+}
+
+.updhead_flag {
+    width: 136px;
+    float: left;
+    background-color: darkorange;
+}
+
+// ------------- delete -------------
+.delhead {
+    width: 680px;
+}
+
+.delhead_flag {
+    width: 136px;
+    float: left;
+    background-color: red;
+}
+
+.form {
+    width: 680px;
+    display: inline-block;
+}

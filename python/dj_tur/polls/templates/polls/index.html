@@ -1,0 +1,22 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <!-- way of valiable cording below(uses namespace). lookup address from urls.py -->
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+        <!-- delete "polls:" string if dont uses namespace. -->
+        <!-- even commented out as HTML, django oriented passages would be interpreted -->
+
+        <!--
+        /* way of hardcording below */
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+        -->
+
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

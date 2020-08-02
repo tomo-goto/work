@@ -1,0 +1,57 @@
+.progress_head {
+    clear: both;
+}
+
+.parent_head {
+    width: 170px;
+    float: left;
+}
+
+.children_head {
+    width: 170px;
+    float: left;
+}
+
+.parcent_head {
+    width: 440px;
+    float: left;
+}
+
+.parcent {
+    width: 40px;
+    float: left;
+}
+
+.row {
+    clear: left;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    float: left;
+    background-color: coral;
+}
+
+.parent_name {
+    width: 170px;
+}
+
+.children {
+}
+
+.child {
+    
+}
+
+.child_name {
+    width: 170px;
+    float: left;
+    background-color: yellowgreen;
+}
+
+.progress {
+    width: 440px;
+    float: left;
+    background-color: yellow;
+}

@@ -1,0 +1,5 @@
+insert into category values ('php', 'php');
+
+insert into title values ('isset', 'how to use isset', '<pre>ARTICLE</pre>', 'php');
+
+insert into navi values ('format', 'writing format', 1, 'php', 'isset');

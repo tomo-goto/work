@@ -1,0 +1,96 @@
+.head {
+    background-color: cornflowerblue;
+    width: 2485px;
+    height: 48px;
+    float: left;
+}
+
+.task_head {
+    width: 80px;
+    height: 48px;
+    float: left;
+}
+
+.milestone_head {
+    float: left;
+}
+
+.month {
+    background-color: coral;
+    text-align: center;
+    height: 48px;
+    float: left;
+}
+
+.day {
+    background-color: aqua;
+    text-align: center;
+    width: 25px;
+    height: 24px;
+    float: left;
+}
+
+.table {
+    background-color: lightskyblue;
+    width: 2485px;
+    float: left;
+}
+.row {
+    clear: left;
+}
+
+.column {
+    float: left;
+}
+
+.parent {
+    width: 2485px;
+    display: flex;
+    align-items: center;
+}
+
+.children {
+}
+
+.child {
+}
+
+.child_name {
+    background-color: red;
+    width: 80px;
+}
+
+.dayon1 {
+    background-color: coral;
+    text-align: center;
+    width: 25px;
+    height: 24px;
+    float: left;
+}
+
+.dayon2 {
+    background-color: greenyellow;
+    text-align: center;
+    width: 25px;
+    height: 24px;
+    float: left;
+}
+
+.dayon3 {
+    background-color: skyblue;
+    text-align: center;
+    width: 25px;
+    height: 24px;
+    float: left;
+}
+
+.dayoff {
+    background-color: gainsboro;
+    text-align: center;
+    width: 25px;
+    height: 24px;
+    float: left;
+}
+
+.schedule {
+}
